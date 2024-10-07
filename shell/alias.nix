@@ -21,7 +21,10 @@
     update = "sudo apt update";
     upgrade = "sudo apt upgrade";
     hms = "home-manager switch --flake .";
+    hmsf = "home-manager switch --flake .";
     nixhome = "cd nixhome";
+    nh = "cd nixhome";
+
 
 
 
