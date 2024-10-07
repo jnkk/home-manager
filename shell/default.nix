@@ -9,8 +9,8 @@
     pg = "ping4 -i 5 google.com";
     pacs = "apt search";
     install = "sudo apt install";
-    cd.. = "cd ..";
-    .. = "cd ..";
+    "cd.." = "cd ..";
+    ".." = "cd ..";
     sb = "source .bashrc";
     up = "sudo apt update && sudo apt upgrade";
     mi = "micro";
