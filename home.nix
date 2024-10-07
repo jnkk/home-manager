@@ -20,6 +20,9 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
+    
+    
+
     nerdfonts
     brave
     nodejs yarn yarn2nix # for personal notes/blog | https://jnkk.github.io/note-pages/
@@ -90,6 +93,7 @@
   }; 
 
   
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
