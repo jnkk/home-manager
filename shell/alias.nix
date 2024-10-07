@@ -20,8 +20,8 @@
     wcs = "warp-cli status";
     update = "sudo apt update";
     upgrade = "sudo apt upgrade";
-    hmsf = "home-manager switch --flake .";
-
+    hms = "home-manager switch --flake .";
+    nixhome = "cd nixhome";
 
 
 
