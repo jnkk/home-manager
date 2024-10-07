@@ -22,8 +22,9 @@
     # # "Hello, world!" when run.
     nerdfonts
     brave
-    nodejs yarn yarn2nix # for personal notes/blog
-    
+    nodejs yarn yarn2nix # for personal notes/blog | https://jnkk.github.io/note-pages/
+    helix
+
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
