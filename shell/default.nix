@@ -1,6 +1,10 @@
 {
 
   programs.bash.enable = true;
-  imports = [ ./alias.nix ];
+  imports = [ 
+    ./alias.nix 
+    ./prompt.nix
+    
+    ];
   
 }
