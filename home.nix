@@ -22,6 +22,7 @@
     # # "Hello, world!" when run.
     nerdfonts
     brave
+    nodejs yarn yarn2nix # for personal notes/blog
     
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
