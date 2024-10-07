@@ -24,6 +24,7 @@
           ./home.nix 
           ./shell/default.nix
           ./neovim/default.nix
+          ./editor/default.nix
         ];
 
         # Optionally use extraSpecialArgs
