@@ -23,6 +23,7 @@
         modules = [ 
           ./home.nix 
           ./shell/default.nix
+          ./neovim/default.nix
         ];
 
         # Optionally use extraSpecialArgs
