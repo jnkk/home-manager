@@ -83,7 +83,11 @@
 
   news.display = "silent";
 
- 
+  programs.ruff = {
+    enable = true;
+    package = pkgs.ruff;
+    settings = {};
+  };
 
   
 
