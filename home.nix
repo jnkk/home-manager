@@ -29,6 +29,7 @@
     zoxide fd eza bat fzf tlrc delta lazygit git-cola thefuck 
     hugo
     fast-cli
+    devenv
 
 
     # # It is sometimes useful to fine-tune packages, for example, by applying

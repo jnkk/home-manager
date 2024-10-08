@@ -27,6 +27,8 @@
     nh = "cd nixhome";
     cola = "git-cola";
     lg = "lazygit";
+    mkdp = "mkdir -p";
+    superapp = "cd project/djangosuperapp/";
 
 
 

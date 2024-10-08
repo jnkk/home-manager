@@ -28,7 +28,6 @@
           ./home.nix 
           ./shell/default.nix
           ./editor/default.nix
-          ./direnv/default.nix
           ./unfree/default.nix
           
         ];
