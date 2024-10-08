@@ -17,17 +17,19 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
       
+    
     in {
       homeConfigurations."jnkk" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
-        
+
         # Specify your home configuration modules here, for example,
         # the path to your home.nix.
         modules = [ 
           ./home.nix 
           ./shell/default.nix
-          ./emacs/default.nix
           ./editor/default.nix
+          ./direnv/default.nix
+          ./unfree/default.nix
           
         ];
 
