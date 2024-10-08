@@ -22,8 +22,11 @@
     upgrade = "sudo apt upgrade";
     hms = "home-manager switch --flake .";
     hmsf = "home-manager switch --flake .";
+    hmsv = "home-manager switch --flake . --verbose";
     nixhome = "cd nixhome";
     nh = "cd nixhome";
+    cola = "git-cola";
+    lg = "lazygit";
 
 
 
