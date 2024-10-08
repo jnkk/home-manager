@@ -23,17 +23,24 @@
     hms = "home-manager switch --flake .";
     hmsf = "home-manager switch --flake .";
     hmsv = "home-manager switch --flake . --verbose";
-    nixhome = "cd nixhome";
-    nh = "cd nixhome";
+    nixhome = "cd /nixhome";
+    nh = "cd /nixhome";
     cola = "git-cola";
     lg = "lazygit";
     mkdp = "mkdir -p";
-    superapp = "cd project/djangosuperapp/";
-
-
-
+    superapp = "cd /project/djangosuperapp/";
+    personalnotes = "cd /vault/note-pages/content && code .";
 
   };
   
+  # programs.bash = {
+  #   initExtra = ""
+  #     function personalnotes 
+  #     {
+  #       cd vault/note-pages/content;
+  #       code .
+  #     }
+  #   "";  
+  # };
 
 }
