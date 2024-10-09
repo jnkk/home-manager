@@ -22,7 +22,7 @@
     # # "Hello, world!" when run.
     
     
-
+    ripgrep gcc
     nerdfonts
     brave
     nodejs yarn yarn2nix # for personal notes/blog | https://jnkk.github.io/note-pages/
@@ -30,6 +30,7 @@
     hugo
     fast-cli
     devenv
+    
 
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
@@ -89,7 +90,7 @@
     settings = {};
   };
 
-  
+  # inputs.nixvim.homeManagerModules.nixvim = true;
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
