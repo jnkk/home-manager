@@ -1,9 +1,9 @@
-{pkgs, nixvim, ... }:
+{ ... }:
 
 {
   programs.nixvim = {
 
-    # enable = true;
+    enable = true;
     colorschemes.gruvbox.enable = true;
 
   };

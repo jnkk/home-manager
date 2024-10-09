@@ -14,7 +14,7 @@
       # url = "github:nix-community/nixvim/nixos-24.05";
 
       inputs.nixpkgs.follows = "nixpkgs";
-  };
+    };
 
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -41,9 +41,9 @@
           ./editor/default.nix
           ./unfree/default.nix
           ./nixvim/default.nix
+          # home-manager.sharedModules 
           nixvim.homeManagerModules.nixvim
           
-
         ];
 
         # Optionally use extraSpecialArgs
